@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Selenium/QA Home Assignment/src/test/java/assignments">
+        <classes>
+            <class name="assignments.Assignment1">
+                <methods>
+                    <include name="brokenImages"/>
+                </methods>
+            </class>
+            <class name="assignments.Assignment2">
+                <methods>
+                    <include name="fileUpload"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,44 @@
+{
+	"id": "82c8c70e-6773-4145-9515-30c986632524",
+	"name": "qa_assignment_4",
+	"timestamp": "2023-06-07T13:30:11.801Z",
+	"collection_id": "19964247-da0fc833-567f-4c99-a01c-ea2ce7c66985",
+	"folder_id": 0,
+	"environment_id": "19964247-c9c73ec4-9997-45cf-9fd0-82b7286faf80",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-07T13:30:11.102Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "475cf98d-723a-44d2-bb76-0d1d23cf1dc9",
+			"name": "https://jsonplaceholder.typicode.com/posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 241,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				241
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 241,
+	"collection": {
+		"requests": [
+			{
+				"id": "475cf98d-723a-44d2-bb76-0d1d23cf1dc9",
+				"method": "POST"
+			}
+		]
+	}
+}
